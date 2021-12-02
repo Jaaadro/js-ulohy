@@ -1,6 +1,9 @@
-// Funkce, která vrací rozdíl dvou čísel
-function sub(a, b) {
-    return 0;
+// Zkus upravit tuhle funkci, aby od proměnné a odečetla proměnnou b
+
+function sub(a,b) {
+    let result = a - b;
+
+    return result;
 }
 
-exports.sub = sub;
+exports.sub=sub;
